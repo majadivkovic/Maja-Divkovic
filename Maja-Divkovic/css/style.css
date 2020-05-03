@@ -1,0 +1,556 @@
+/*//////////*/
+/*  GLOBAL  */
+/*//////////*/
+
+* {
+  font-family: 'Arvo', sans-serif;
+  color: #344039;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-weight: 300;
+}
+
+h2 {
+  color: #495159;
+  font-size: 2rem;
+  text-decoration-line: underline;
+  text-decoration-color: #fcdbc9;
+  
+  
+}
+h3 {
+  color: snow;
+}
+
+/*//////////*/
+/*  HEADER  */
+/*//////////*/
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #bcf8e7;
+  z-index: 100;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 2rem;
+  margin: 10px auto 5px auto;
+  color: white;
+  background-color: #bcf8e7;
+}
+
+.subtitle {
+  font-size: 1rem;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  background-color: #bcf8e7;
+}
+
+/*/////////////*/
+/*  MOBILE NAV */
+/*/////////////*/
+
+
+.desktop-nav {
+  display: none;
+  }
+
+#menu-button {
+  height: 25px;
+  text-align: center;
+  width: 100%;
+  background-color: #fcdbc9;
+  text-justify: auto;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin: 5px 0 0;
+}
+
+
+#mobile-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid #fcdbc9;
+  background-color: #bcf8e7;
+}
+
+#mobile-nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 15px auto 10px auto;
+  border-bottom: 1px solid #fcdbc9;
+  
+}
+
+#mobile-nav a:first-child {
+  margin-top: 25px;
+}
+
+#mobile-nav a:last-child {
+  margin-bottom: 25px;
+}
+
+#mobile-nav a:hover {
+  color: #fcdbc9;
+}
+
+/*////////*/
+/*  MAIN  */
+/*////////*/
+
+.about-wrap img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  align-self: center;
+  justify-self: center;
+  padding: 25px 25px;
+}
+
+.about-wrap {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.about-text {
+  padding: 25px 25px;
+}
+
+#about h2 {
+  margin-top: 5px;
+}
+
+#portfolio h2 {
+  width: auto;
+}
+
+#portfolio-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: #495159;
+  height: auto;
+  margin: auto
+}
+
+.project-wrap {
+  position: relative;
+  text-align: center;
+  padding: 25px 25px;
+}
+
+#basic-info a button,
+.git-button,
+.www-button {
+  display: inline-block;
+  border: 1px solid #bcf8e7;
+  border-radius: 5px;
+  background-color: #bcf8e7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #495159;
+  width: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.www-button {
+  margin-left: 20px;
+}
+
+.more-info-button {
+  position: absolute;
+  background-color: #bcf8e7;
+  width: 75%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  color: #495159;
+
+}
+
+.project-wrap a {
+  color: #495159;
+}
+
+
+.mockup {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+#about {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/*EXPERIENCE*/
+
+#experience {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.technology-icon,
+.contact-website-icon {
+  height: 45px;
+  margin: 10px 20px auto 20px;
+  
+}
+
+#more-info-div {
+  background-color: #fcd8c9;
+  width: 85%;
+  position: absolute;
+  text-align: center;
+  left: 3%;
+
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#more-info-div p {
+  color: #495159;
+}
+
+/*CONTACT*/
+
+#contact {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#basic-info a,
+#contact a {
+  color: white;
+}
+
+/*//////////*/
+/*  FOOTER  */
+/*//////////*/
+
+footer {
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 30px;
+  background-color: #bcf8e7;
+}
+
+footer p {
+  color: #495159;
+}
+
+/*///////////////*/
+/*//// MODAL ////*/
+/*///////////////*/
+
+#modal-window {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  background-color: #fcdbc9;
+  border-radius: 5px;
+  border: lightgrey 1px solid;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 15px 50px 15px;
+ 
+}
+
+#basic-info {
+  width: 95%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#basic-info a button {
+  margin-top: 10px;
+}
+
+#basic-info img {
+  margin-bottom: 15px;
+}
+
+#modal-info {
+  width: 95%;
+  text-align: center;
+}
+
+.modal-text {
+  font-size: 0.8rem;
+ }
+
+#modal-x {
+  position: fixed;
+  top: 4%;
+  left: 92%;
+  margin: 7px 2px;
+  font-size: 2rem;
+  padding: 1px 10px 5px 10px;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+}
+
+#modal-x:hover {
+  background-color: #bcf8e7;
+  color: white;
+}
+
+.modal-mockup {
+  width: 90%;
+  border: 1px solid #bcf8e7;
+  border-radius: 5px;
+}
+
+#modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.technology-name {
+  background-color: #495159;
+  width: auto;
+  height: 25px;
+  padding: 10px 10px 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: snow;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/*/////////////////////*/
+/*//// MEDIA QUERY ////*/
+/*/////////////////////*/
+
+@media screen and (min-width: 576px ) {
+
+  #modal-window {
+    width: 80%;
+    height: 80%;
+  }
+
+  .modal-text {
+    font-size: initial;
+  }
+}
+
+@media screen and (min-width: 768px ) and (orientation: landscape) {
+
+  #menu-button {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+  .header-wrapper {
+    flex-direction: row;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    margin: 10px auto 5px auto;
+    color: #495159;
+    background-color: #bcf8e7;
+  }
+
+  .subtitle {
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #495159;
+    background-color: #bcf8e7;
+  }
+
+  /*//////////////*/
+  /*  DESKTOP NAV */
+  /*//////////////*/
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 45px;
+    background-color: #bcf8e7;
+  }
+
+  .desktop-nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #21402d;
+  }
+
+  .desktop-nav a:hover {
+    color: white;
+  }
+
+  .desktop-nav p {
+    margin: 22px 10px auto 10px;
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+
+  .about-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .about-wrap img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 50px ;
+  }
+
+  .mockup {
+    width: 400px;
+    height: auto;
+  }
+
+  .modal-mockup {
+    width: 100%;
+  }
+
+  #basic-info {
+    width: 45%;
+    text-align: center;
+  }
+
+  #basic-info a button {
+    margin-top: 10px;
+  }
+
+
+  #modal-info {
+    width: 45%;
+  }
+
+  #modal-x {
+    left: 97%;
+  }
+
+  #portfolio-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 25px 50px;
+    margin: auto
+  }
+
+  #more-info-div {
+    width: 50%;
+    left: 25%;
+  }
+
+  .more-info-button {
+    top: 37%;
+  }
+
+  #modal-window {
+    width: 50%;
+    /*max-width: 300px;*/
+    height: 400px;
+    padding: 50px 40px;
+  }
+}
+
+@media screen and (min-width: 1024px ) {
+
+  .about-wrap {
+    justify-content: space-evenly;
+  }
+
+  .about-text {
+    width: 37%;
+
+  }
+
+  .mockup {
+    width: 500px;
+    height: auto;
+  }
+
+  .project-wrap {
+    padding: 50px 50px;
+  }
+
+  #more-info-div {
+    width: 33%;
+    left: 33%;
+  }
+
+  #modal-window {
+    width: 900px;
+    flex-direction: row;
+  }
+}
