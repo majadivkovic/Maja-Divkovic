@@ -1,0 +1,66 @@
+/*/////////////*/
+/*  MAIN GRID  */
+/*/////////////*/
+
+  body {
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 110px 1fr 60px;
+     grid-row-gap: 15px;
+     grid-template-areas:
+       'header'
+       'main'
+       'footer'
+   ;
+   }
+
+/* MAIN SELECTORS*/
+
+  header {
+    grid-area: header;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+
+/*/////////////////*/
+/*  SECTIONS GRID  */
+/*/////////////////*/
+
+  #sections-grid {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    grid-template-areas:
+      'about'
+      'portfolio'
+      'experience'
+      'contact'
+  ;
+  }
+
+/* SECTIONS SELECTORS*/
+
+  #portfolio {
+    grid-area: portfolio;
+  }
+
+  #about {
+    grid-area: about;
+  }
+
+  #experience {
+    grid-area: experience;
+  }
+
+  #contact {
+    grid-area: contact;
+  }
