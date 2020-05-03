@@ -1,2 +1,0 @@
-# Maja-Divkovic
-My Portfolio
